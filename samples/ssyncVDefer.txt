@@ -1,0 +1,17 @@
+Async V Defer
+
+Normal script tag behavior:
+In general, the browser parses HTML first, if it sees a script tag it will pause the HTML parsing, then fetch the script, load the script continue the parsing
+
+<script src=".." />
+
+Async behavior:
+The browser parses HTML, and scripts are fetched asynchronously, In between if the script is fetched, the parsing will stop, it will load the script and then continue parsing HTML
+
+<script async src=".." />
+
+Defer behavior:
+
+The browser parses HTML, scripts are fetched asynchronously, but in this case the script will load only when the parsing of HTML is done
+
+<script defer src=".." />

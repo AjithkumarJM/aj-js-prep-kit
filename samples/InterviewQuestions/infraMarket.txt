@@ -1,0 +1,8 @@
+Questions
+
+1. Different types of useEffect and it's output
+2. Develop a list component, get a data from API and list down 
+   and tell what are are the props you will expose/consume
+3. Memoization techniques
+4. Optimization techniques in react
+5. What idea/design you gave and your company accepted
